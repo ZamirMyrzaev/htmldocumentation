@@ -1,0 +1,20 @@
+.card{
+    background-color: black;
+    color: #ffe600;
+    border-radius: 18px;
+    font-size: 46px;
+    flex: 0 0 30%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.card a{
+    color: #ffe600;
+}
